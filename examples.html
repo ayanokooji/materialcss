@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>MaterialCSS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="material.css">
+    <style>
+      #examples .input, .input-filled, .input-standard, .btn-text, .btn-contained, .btn-outlined, .btn-icon, .btn-icon-contained, .btn-icon-outlined
+      {
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div style="padding: 50px;" id="examples">
+
+      <label class="input">
+        <input type="text" name="outlined" id="outlined" placeholder=" " spellcheck="false">
+        <span class="label">Outlined</span>
+      </label>
+
+      <label class="input">
+        <span class="material-icons start-icon">&#xe8b6;</span>
+        <input type="text" name="search" id="search" placeholder=" " spellcheck="false">
+        <span class="label">Search</span>
+      </label>
+
+      <label class="input">
+        <input type="text" name="user" id="user" placeholder=" " spellcheck="false">
+        <span class="label">Usuário</span>
+        <span class="material-icons end-icon">&#xe7fd;</span>
+      </label>
+
+      <label class="input">
+        <input type="text" name="disabled" id="disabled" placeholder=" " spellcheck="false" disabled value="Hello World">
+        <span class="label">Disabled</span>
+      </label>
+
+      <label class="input">
+        <input type="text" name="readonly" id="readonly" placeholder=" " spellcheck="false" readonly value="Hello World">
+        <span class="label">Read Only</span>
+      </label>
+
+      <br>
+
+      <label class="input input-Primary">
+        <input type="text" name="input-Primary" id="input-Primary" placeholder=" " spellcheck="false">
+        <span class="label">Primary</span>
+        <span class="material-icons end-icon">&#xe400;</span>
+      </label>
+
+      <label class="input input-secondary">
+        <input type="text" name="input-secondary" id="input-secondary" placeholder=" " spellcheck="false">
+        <span class="label">Secondary</span>
+        <span class="material-icons end-icon">&#xe401;</span>
+      </label>
+
+      <label class="input input-error">
+        <input type="text" name="input-error" id="input-error" placeholder=" " spellcheck="false">
+        <span class="label">Error</span>
+        <span class="material-icons end-icon">&#xe000;</span>
+      </label>
+
+      <label class="input input-success">
+        <input type="text" name="input-success" id="input-success" placeholder=" " spellcheck="false">
+        <span class="label">Success</span>
+        <span class="material-icons end-icon">&#xe876;</span>
+      </label>
+
+      <label class="input input-warning">
+        <input type="text" name="input-warning" id="input-warning" placeholder=" " spellcheck="false">
+        <span class="label">Warning</span>
+        <span class="material-icons end-icon">&#xe002;</span>
+      </label>
+
+      <br>
+
+      <label class="input-filled">
+        <input type="text" name="filled" id="filled" placeholder=" " spellcheck="false">
+        <span class="label">Filled</span>
+      </label>
+
+      <label class="input-filled">
+        <span class="material-icons start-icon">&#xe8b6;</span>
+        <input type="text" name="search" id="search" placeholder=" " spellcheck="false">
+        <span class="label">Search</span>
+      </label>
+
+      <label class="input-filled">
+        <input type="text" name="user" id="user" placeholder=" " spellcheck="false">
+        <span class="label">Usuário</span>
+        <span class="material-icons end-icon">&#xe7fd;</span>
+      </label>
+
+      <label class="input-filled">
+        <input type="text" name="filled-disabled" id="filled-disabled" placeholder=" " spellcheck="false" disabled value="Hello World">
+        <span class="label">Disabled</span>
+      </label>
+
+      <label class="input-filled">
+        <input type="text" name="filled-readonly" id="filled-readonly" placeholder=" " spellcheck="false" readonly value="Hello World">
+        <span class="label">Read Only</span>
+      </label>
+
+      <br>
+
+      <label class="input-filled input-filled-primary">
+        <input type="text" name="filled-primary" id="filled-primary" placeholder=" " spellcheck="false">
+        <span class="label">Primary</span>
+        <span class="material-icons end-icon">&#xe400;</span>
+      </label>
+
+      <label class="input-filled input-filled-secondary">
+        <input type="text" name="filled-secondary" id="filled-secondary" placeholder=" " spellcheck="false">
+        <span class="label">Secondary</span>
+        <span class="material-icons end-icon">&#xe401;</span>
+      </label>
+
+      <label class="input-filled input-filled-error">
+        <input type="text" name="filled-error" id="filled-error" placeholder=" " spellcheck="false">
+        <span class="label">Error</span>
+        <span class="material-icons end-icon">&#xe000;</span>
+      </label>
+
+      <label class="input-filled input-filled-success">
+        <input type="text" name="filled-success" id="filled-success" placeholder=" " spellcheck="false">
+        <span class="label">Success</span>
+        <span class="material-icons end-icon">&#xe876;</span>
+      </label>
+
+      <label class="input-filled input-filled-warning">
+        <input type="text" name="filled-warning" id="filled-warning" placeholder=" " spellcheck="false">
+        <span class="label">Warning</span>
+        <span class="material-icons end-icon">&#xe002;</span>
+      </label>
+
+      <br>
+
+      <label class="input-standard">
+        <input type="text" name="standard" id="standard" placeholder=" " spellcheck="false">
+        <span class="label">Standard</span>
+      </label>
+
+      <label class="input-standard">
+        <span class="material-icons start-icon">&#xe8b6;</span>
+        <input type="text" name="search" id="search" placeholder=" " spellcheck="false">
+        <span class="label">Search</span>
+      </label>
+
+      <label class="input-standard">
+        <input type="text" name="user" id="user" placeholder=" " spellcheck="false">
+        <span class="label">Usuário</span>
+        <span class="material-icons end-icon">&#xe7fd;</span>
+      </label>
+
+      <label class="input-standard">
+        <input type="text" name="standard-disabled" id="standard-disabled" placeholder=" " spellcheck="false" disabled value="Hello World">
+        <span class="label">Disabled</span>
+      </label>
+
+      <label class="input-standard">
+        <input type="text" name="standard-readonly" id="standard-readonly" placeholder=" " spellcheck="false" readonly value="Hello World">
+        <span class="label">Read Only</span>
+      </label>
+
+      <br>
+
+      <label class="input-standard input-standard-primary">
+        <input type="text" name="standard-primary" id="standard-primary" placeholder=" " spellcheck="false">
+        <span class="label">Primary</span>
+        <span class="material-icons end-icon">&#xe400;</span>
+      </label>
+
+      <label class="input-standard input-standard-secondary">
+        <input type="text" name="standard-secondary" id="standard-secondary" placeholder=" " spellcheck="false">
+        <span class="label">Secondary</span>
+        <span class="material-icons end-icon">&#xe401;</span>
+      </label>
+
+      <label class="input-standard input-standard-error">
+        <input type="text" name="standard-error" id="standard-error" placeholder=" " spellcheck="false">
+        <span class="label">Error</span>
+        <span class="material-icons end-icon">&#xe000;</span>
+      </label>
+
+      <label class="input-standard input-standard-success">
+        <input type="text" name="standard-success" id="standard-success" placeholder=" " spellcheck="false">
+        <span class="label">Success</span>
+        <span class="material-icons end-icon">&#xe876;</span>
+      </label>
+
+      <label class="input-standard input-standard-warning">
+        <input type="text" name="standard-warning" id="standard-warning" placeholder=" " spellcheck="false">
+        <span class="label">Warning</span>
+        <span class="material-icons end-icon">&#xe002;</span>
+      </label>
+
+      <br>
+
+      <a href="#" class="btn-text">
+        <span class="value">Text</span>
+      </a>
+
+      <a href="#" class="btn-text btn-text-secondary">
+        <span class="value">Secondary</span>
+      </a>
+
+      <a href="#" class="btn-text btn-text-error">
+        <span class="value">Error</span>
+      </a>
+
+      <a href="#" class="btn-text btn-text-success">
+        <span class="value">Success</span>
+      </a>
+
+      <a href="#" class="btn-text btn-text-warning">
+        <span class="value">Warning</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-contained">
+        <span class="value">Contained</span>
+      </a>
+
+      <a href="#" class="btn-contained btn-contained-secondary">
+        <span class="value">Secondary</span>
+      </a>
+
+      <a href="#" class="btn-contained utton-contained-error">
+        <span class="value">Error</span>
+      </a>
+
+      <a href="#" class="btn-contained btn-contained-success">
+        <span class="value">Success</span>
+      </a>
+
+      <a href="#" class="btn-contained btn-contained-warning">
+        <span class="value">Warning</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-outlined btn-outlined">
+        <span class="value">Outlined</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-outlined-secondary">
+        <span class="value">Secondary</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-outlined-error">
+        <span class="value">Error</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-outlined-success">
+        <span class="value">Success</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-outlined-warning">
+        <span class="value">Warning</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-text btn-small">
+        <span class="value">small</span>
+      </a>
+
+      <a href="#" class="btn-contained btn-contained-secondary">
+        <span class="value">medium</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-large btn-outlined-success">
+        <span class="value">large</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-text">
+        <span class="material-icons start-icon">save</span>
+        <span class="value">Save</span>
+      </a>
+
+      <a href="#" class="btn-contained btn-contained-error">
+        <span class="value">Delete</span>
+        <span class="material-icons end-icon">delete</span>
+      </a>
+
+      <a href="#" class="btn-outlined btn-outlined-success">
+        <span class="value">Send</span>
+        <span class="material-icons end-icon">send</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-icon">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon btn-icon-secondary">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon btn-icon-error">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon btn-icon-success">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon btn-icon-warning">
+        <span class="material-icons">add</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-icon-contained">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-contained btn-icon-contained-secondary">
+        <span class="material-icons">add</span>
+      </a>
+      
+      <a href="#" class="btn-icon-contained btn-icon-contained-error">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-contained btn-icon-contained-success">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-contained btn-icon-contained-warning">
+        <span class="material-icons">add</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-icon-outlined">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-outlined btn-icon-outlined-secondary">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-outlined btn-icon-outlined-error">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-outlined btn-icon-outlined-success">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-outlined btn-icon-outlined-warning">
+        <span class="material-icons">add</span>
+      </a>
+
+      <br>
+
+      <a href="#" class="btn-icon-contained btn-icon-small">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-contained btn-icon-medium">
+        <span class="material-icons">add</span>
+      </a>
+
+      <a href="#" class="btn-icon-contained btn-icon-large">
+        <span class="material-icons">add</span>
+      </a>
+
+    </div>
+
+  </body>
+</html>
